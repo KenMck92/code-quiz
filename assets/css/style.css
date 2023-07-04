@@ -1,0 +1,13 @@
+header {
+    text-align: center;
+}
+
+.head div p {
+    text-align: center;
+}
+
+button {
+    background-color:red;
+    position: absolute;
+    right: 47%;
+}
