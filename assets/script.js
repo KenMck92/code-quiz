@@ -13,4 +13,6 @@ startQuiz.addEventListener("click", function() {
         firstQue.textContent = "What is an Array?";
         form.style.display = 'none';
     }
+
 });
+
