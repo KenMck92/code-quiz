@@ -2,7 +2,7 @@ header {
     text-align: center;
 }
 
-.head div p {
+div p {
     text-align: center;
 }
 
@@ -10,4 +10,8 @@ button {
     background-color:red;
     position: absolute;
     right: 47%;
+}
+
+.first-que {
+    text-align: center;
 }
