@@ -1,73 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Quiz</title>
-    <link rel="Stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Coding Quiz Challenge</title>
 </head>
+
 <body>
-    <header class="highscore"></header>
-    <div class="form">
-    <h1 class="head"></h1>
-    <div>
-        <p>
-        </p>
-    </div>
-    <button class="btn">Start Quiz</button>
-    </div>
-    <div class="info">
-        <h2>
-        </h2>
-            <div class="first-que">
-                <p>question 1?</p>
-                <label>
-                    <input type="search" name="1" data-right>
-                    answer 1
-                </label>
-                <label>
-                    <input type="radio" name="1">
-                    answer 2
-                </label>
-                <label>
-                    <input type="radio" name="1">
-                    answer 3
-                </label>
-            </div>
-            <div class="second-que">
-                <p>question 2?</p>
-                
-                <label>
-                    <input type="radio" name="2">
-                    answer 1
-                </label>
-                <label>
-                    <input type="radio" name="2" data-right>
-                    answer 2
-                </label>
-                <label>
-                    <input type="radio" name="2">
-                    answer 3
-                </label>
-            </div>
-            <div class="third-que">
-                <p>question 3?</p>
-                
-                <label>
-                    <input type="radio" name="3">
-                    answer 1
-                </label>
-                <label>
-                    <input type="radio" name="3">
-                    answer 2
-                </label>
-                <label>
-                    <input type="radio" name="3" data-right>
-                    answer 3
-                </label>
-            </div>
+    <main id="quiz-container">
+        <div class="head">
+            <h1></h1>
+            <p></p>
         </div>
+        <div id="questions"></div>
+        <li id="options"></li>
+        <button id="start-quiz">Start Quiz</button>
+        <input type="text" id="initials" placeholder="Enter your initials">
+        <button id="submit">Submit</button>
+        <span id="timer">60</span>
+    </main>
     <script src="assets/script.js"></script>
 </body>
+
 </html>

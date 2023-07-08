@@ -2,7 +2,7 @@ h1 {
     text-align: center;
 }
 
-div p {
+.rules {
     text-align: center;
 }
 
@@ -12,6 +12,43 @@ button {
     right: 47%;
 }
 
-.info {
+.first-que {
     text-align: center;
+}
+
+#questions {
+    text-align: center;
+    font-size: x-large;
+}
+
+li {
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: red;
+    text-align: center;
+}
+
+li:hover {
+    color: aqua;
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.05em);
+    cursor: pointer;
+}
+
+input {
+    text-align: center;
+    margin: auto;
+}
+
+#timer {
+    text-align: center;
+    padding: 10px;
+    float: right;
+    font-size: 100px;
+    color: red;
+}
+
+p {
+   text-align: center;
 }
