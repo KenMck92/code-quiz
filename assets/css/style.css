@@ -1,3 +1,11 @@
+body {
+    background-color: grey;
+}
+
+header {
+    text-align: center;
+}
+
 h1 {
     text-align: center;
 }
@@ -30,7 +38,7 @@ li {
 }
 
 li:hover {
-    color: aqua;
+    color: whitesmoke;
     box-shadow: 0 0.5em 0.5em -0.4em;
     transform: translateY(-0.05em);
     cursor: pointer;
@@ -51,4 +59,8 @@ input {
 
 p {
    text-align: center;
+}
+
+h2 {
+    text-align: center;
 }

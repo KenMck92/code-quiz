@@ -130,14 +130,22 @@ function endQuiz() {
 
 function saveScore() {
     var initials = textBox.value;
-    leaderboard.push({
+    var userInfo = {
         user: initials,
         score: score,
         timeLeft: endTime
-    });
+    };
+    init();
+    leaderBoard.push(userInfo)
+    localStorage.setItem("leaderBoard", JSON.stringify(leaderBoard));
+    console.log(leaderBoard);
+    window.location.href="scoreboard.html";
+};
 
-    localStorage.setItem("leaderBoard", JSON.stringify(leaderboard));
-    console.log(leaderboard);
-    location.reload();
-    window.alert(JSON.stringify(leaderboard));
+function init() {
+    var storedScores = JSON.parse(localStorage.getItem("leaderBoard"));
+    
+    if (storedScores != null) {
+        leaderBoard = storedScores;
+    }
 };
