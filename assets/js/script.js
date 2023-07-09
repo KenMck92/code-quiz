@@ -125,6 +125,7 @@ function endQuiz() {
     textBox.style.display = "block";
     submit.style.display = "block";
     questionElement.textContent = "Your score is " + score + " out of 4, with " + endTime + " seconds left. Enter your initials and click submit to save your score!";
+    clearInterval(timerInterval);
 };
 
 
