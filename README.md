@@ -10,6 +10,8 @@ In CSS I added text alignments and borders to my answer choices. I also added a 
 Javascript:
 In Javascript I created multiple variables and functions to correlate to my html. I added if statements and for loops to work with my questions answered correctly or incorrectly. I added a timer that starts when the quiz starts and decreases 10 seconds for every wrong answer. I also used JSON to log all of the test results in the local storage.
 
+## Usage
+
 ![Alt Text](/Coding%20Quiz%20Screenshot.png)
 
 https://kenmck92.github.io/code-quiz/
